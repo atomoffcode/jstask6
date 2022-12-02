@@ -78,8 +78,24 @@
     text-rendering: auto;
     scale: 0.8;
     margin: 0 3px;
+    transform: rotateZ(0deg);
+    transition: 0.7s;
 
 }
+.active3::after{
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 700!important;
+    content: "\f107"!important;
+    display: inline-block!important;
+    font-style: normal!important;
+    font-variant: normal!important;
+    text-rendering: auto!important;
+    scale: 0.8!important;
+    margin: 0 3px!important;
+    transform: rotateZ(180deg) !important;
+    transition: 0.7s;
+}
+
 .box{
     width: 50px;
     height: 50px;

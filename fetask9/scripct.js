@@ -19,6 +19,7 @@ lng.addEventListener('click',function(e){
     var langbox = document.getElementById('langbox');
     e.preventDefault();
     langbox.classList.toggle("active2")
+    lng.classList.toggle("active3")
 })
 
 
